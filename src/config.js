@@ -1,4 +1,5 @@
 export default {
+  MAX_ATTACHMENT_SIZE: 5000000,
   s3: {
     REGION: "sa-east-1",
     BUCKET: "marcel-learning-bucket"
@@ -14,3 +15,6 @@ export default {
     IDENTITY_POOL_ID: "us-east-1:186d11b3-a16f-4815-a89b-e8241a27a2d0"
   }
 };
+
+
+
